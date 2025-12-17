@@ -289,9 +289,12 @@ and joy find you more often than stress. ✨</p>
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1 }}
             >
-              <p>🎅 Santa says if you <span className="sparkle-text">like</span> this -<br/>
+             <p>🎅 Santa says if you <span className="sparkle-text">like</span> this -<br/>
               go back shower with <span className="sparkle-text">likes</span> and <span className="sparkle-text">share</span><br/>
-              <span className="handle">@silicontothesoil</span></p>
+              <a href="https://www.instagram.com/silicontothesoil/" target="_blank" rel="noopener noreferrer" className="insta-link">
+                <span className="handle">@silicontothesoil</span>
+                <span className="insta-icon">📷</span>
+              </a></p>
             </motion.div>
           </motion.div>
         )}
